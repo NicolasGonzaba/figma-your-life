@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+}
+
+.bg-gray{
+   background-color: lightgray;
+}
+.header{
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.margin{
+    margin-left: 15rem;
+}
+.box{
+    width: 45rem;
+    height: 3rem;  
+    background-color: black;
+    margin: 1rem;
+    text-align: center;
+}
+
+.boxA{
+    width: 45rem;
+    height: 3rem;  
+    background-color: blue;
+    margin: 1rem;
+    text-align: center;
+}
