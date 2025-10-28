@@ -5,7 +5,11 @@ body{
 .bg-gray{
    background-color: lightgray;
 }
+a{
+    text-decoration: none;
+}
 .header{
+    font-size: 40px;
     color: white;
 }
 
@@ -16,6 +20,7 @@ body{
 
 }
 
+
 .margin{
     margin-left: 15rem;
 }
@@ -25,6 +30,9 @@ body{
     background-color: black;
     margin: 1rem;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .boxA{
@@ -33,6 +41,15 @@ body{
     background-color: rgb(67, 134, 235);
     margin: 1rem;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxB{
+    width: 90rem; 
+    background-color: lightgray;
+    margin: 1rem;
+    border-radius: 8%;
 }
 
 .boxG{
@@ -40,6 +57,7 @@ body{
     background-color: lightgray;
     margin: 1rem;
     text-align: center;
+    border-radius: 5%;
 }
 
 .boxG2{
@@ -49,11 +67,16 @@ body{
     margin-right: 5rem;
     margin-left: 5rem;
     text-align: center;
+    border-radius: 5%;
 }
 
 .realign{
     margin-right: 5rem;
     margin-left: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .small{
