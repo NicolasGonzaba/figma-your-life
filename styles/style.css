@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(88, 177, 241);
 }
 
 .bg-gray{
@@ -15,6 +15,7 @@ body{
     align-items: center;
 
 }
+
 .margin{
     margin-left: 15rem;
 }
@@ -29,7 +30,40 @@ body{
 .boxA{
     width: 45rem;
     height: 3rem;  
-    background-color: blue;
+    background-color: rgb(67, 134, 235);
     margin: 1rem;
     text-align: center;
+}
+
+.boxG{
+    width: 45rem; 
+    background-color: lightgray;
+    margin: 1rem;
+    text-align: center;
+}
+
+.boxG2{
+    width: 30rem; 
+    background-color: lightgray;
+    margin: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.realign{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.small{
+    font-size: 15px;
+}
+
+.big{
+    font-size: 20px;
+}
+
+.bigger{
+    font-size: 25px;
 }
